@@ -1,5 +1,4 @@
-📚 Literalura
-Literalura é um projeto desenvolvido como challenge do LiterAlura, promovido pela Alura em parceria com o programa Oracle Next Education.
+📚 Literalura é um projeto desenvolvido como challenge do LiterAlura, promovido pela Alura em parceria com o programa Oracle Next Education.
 
 Este aplicativo em Java permite buscar e registrar livros utilizando a API Gutendex, armazenando os dados em um banco de dados PostgreSQL. A interface é simples e interativa via terminal.
 
