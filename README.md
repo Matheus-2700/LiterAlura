@@ -1,30 +1,60 @@
 📚 Literalura
-Este projeto trata-se do challenge LiterAlura, promovido pela Alura em parceria com o programa Oracle Next Education. A aplicação permite buscar e registrar livros utilizando a API Gutendex e armazenar as informações em um banco de dados PostgreSQL.
+Literalura é um projeto desenvolvido como challenge do LiterAlura, promovido pela Alura em parceria com o programa Oracle Next Education.
 
-1. Configuração do Ambiente
-Linguagem de Programação: Java
-Ferramenta de Gerenciamento de Projetos: Maven
-Versão do Spring Boot: A versão utilizada no exemplo da aula.
-Dependências:
-Spring Data JPA: Facilita a persistência de dados.
-Driver do PostgreSQL: Para conectar ao banco de dados PostgreSQL.
-2. Consumo da API Gutendex
-O aplicativo utiliza a API Gutendex para:
+Este aplicativo em Java permite buscar e registrar livros utilizando a API Gutendex, armazenando os dados em um banco de dados PostgreSQL. A interface é simples e interativa via terminal.
 
-Realizar a busca de livros por título: O usuário pode inserir o título de um livro e a aplicação busca na API.
-Obter informações do livro: A API retorna dados como título, autor, idioma e número de downloads.
-3. Persistência de Dados no Banco de Dados PostgreSQL
-Criar Tabelas: O aplicativo cria tabelas para armazenar dados dos livros, incluindo informações como título, autor, idioma e número de downloads.
-Inserir Dados: Os dados obtidos da API Gutendex são inseridos no banco de dados.
-4. Interface do Usuário (Terminal)
-O aplicativo oferece as seguintes opções no menu interativo:
+🚀 Funcionalidades
+🔍 Buscar livros pelo título diretamente na API Gutendex.
 
-Buscar Livro pelo Título: O usuário pode inserir o título de um livro, que será buscado na API Gutendex e registrado no banco de dados, caso não esteja previamente registrado.
+💾 Registrar livros buscados no banco de dados PostgreSQL.
 
-Listar Livros Registrados: O usuário pode listar todos os livros armazenados no banco de dados.
+📖 Listar todos os livros cadastrados.
 
-Listar Autores Registrados: O usuário pode listar todos os autores dos livros armazenados.
+✍️ Listar todos os autores cadastrados.
 
-Listar Autores Vivos em um Determinado Ano: O usuário pode inserir um ano e a aplicação lista todos os autores que estavam vivos naquele ano.
+🕰️ Listar autores que estavam vivos em um ano específico.
 
-Listar Livros em um Determinado Idioma: O usuário pode inserir um idioma e a aplicação lista todos os livros disponíveis nesse idioma.
+🌐 Listar livros disponíveis em um idioma escolhido.
+
+🛠️ Tecnologias Utilizadas
+Java — Linguagem de programação.
+
+Spring Boot — Framework para simplificar o desenvolvimento.
+
+Maven — Gerenciamento de dependências e build.
+
+Spring Data JPA — Para facilitar o acesso e persistência no banco.
+
+PostgreSQL — Banco de dados relacional para armazenar os livros.
+
+API Gutendex — Fonte dos dados dos livros.
+
+⚙️ Como Rodar o Projeto
+Clone este repositório:
+
+bash
+Copiar
+Editar
+git clone https://github.com/Matheus-2700/LiterAlura.git
+cd LiterAlura
+Configure o banco PostgreSQL e atualize as credenciais no arquivo application.properties do Spring Boot.
+
+Execute o projeto com Maven:
+
+bash
+Copiar
+Editar
+mvn spring-boot:run
+Use o menu interativo no terminal para buscar livros e explorar os dados cadastrados.
+
+📚 Sobre a API Gutendex
+A API Gutendex oferece acesso gratuito a uma coleção gigante de livros de domínio público, permitindo buscas por título, autor, idioma, entre outros.
+
+🧑‍💻 Contato
+Desenvolvido por Matheus Karvat
+GitHub: github.com/Matheus-2700
+LinkedIn: linkedin.com/in/matheus-karvat
+
+🎉 Agradecimentos
+Obrigado à Alura e ao Oracle Next Education pelo desafio e suporte para este projeto!
+
